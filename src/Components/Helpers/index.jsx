@@ -1,19 +1,18 @@
-import {GetMovieDataService, GetTrendingMovieDataService} from "../../Services/GetMovieDataService";
+import {
+  GetMovieDataService,
+  GetTrendingMovieDataService,
+} from "../../Services/GetMovieDataService";
 
-// this function to get movies data 
+// this function to get movies data
 export const handleApiCallHelper = async (userInput, setMovieMethod) => {
   const responseData = await GetMovieDataService(userInput);
 
- setMovieMethod(responseData);
+  setMovieMethod(responseData);
 };
 
+// this function to get movies Trending Movies data
+export const TrendingMoviesApiCallHelper = async (page, setMovieMethod) => {
+  const responseData = await GetTrendingMovieDataService(page);
 
-// this function to get movies Trending Movies data 
-export const TrendingMoviesApiCallHelper = async (page,setMovieMethod) => {
-    const responseData = await GetTrendingMovieDataService(page);
-  
-   setMovieMethod(responseData);
-  };
-  
-
-
+  setMovieMethod(responseData);
+};

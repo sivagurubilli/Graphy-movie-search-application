@@ -10,9 +10,9 @@ import SearchComponent from "../../Components/SearchInput";
 const Home = () => {
   const [retrievedMovies, setRetrievedMovies] = useState([]);
   const [movieToSearch, setMovieToSearch] = useState("");
-   const [page,setPage]                   = useState(1)
+  const [page, setPage] = useState(1);
 
-  //when user come to the site it shows latest movies 
+  //when user come to the site it shows latest movies
   //if he enters any value then show data related to search term
 
   useEffect(() => {
@@ -21,7 +21,7 @@ const Home = () => {
     } else {
       TrendingMoviesApiCallHelper(page, setMovieToSearch);
     }
-  }, [movieToSearch,page]);
+  }, [movieToSearch, page]);
 
   //to handle movie search term
   const handleMovieToSearch = (movieInput) => {
@@ -42,8 +42,6 @@ const Home = () => {
       <section>
         <Movies movies={retrievedMovies} movieToSearch={movieToSearch} />
       </section>
-
-
     </div>
   );
 };

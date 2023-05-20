@@ -4,7 +4,7 @@ import MovieCard from "./MoviCard";
 const MovieFound = ({ movies }) => {
  
   return (
-    <div className="movie-grid"> 
+    <div className="movie_grid"> 
       {movies?.Search?.map((el) => (
         <MovieCard key={el} foundMovie={el} />
       ))}

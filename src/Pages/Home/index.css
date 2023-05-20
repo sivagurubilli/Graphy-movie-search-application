@@ -2,10 +2,11 @@
 
 .App {
   text-align: center;
+  padding-bottom:6% ;
 }
 
 .header {
-  background-color: #f76b6c;
+ 
   background-image: url("https://cdn.mos.cms.futurecdn.net/rDJegQJaCyGaYysj2g5XWY.jpg");
   background-attachment: fixed;
   background-size: cover;
@@ -15,7 +16,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color:#f76b6c ;
+  color:pink;
 }
 
 h1 {

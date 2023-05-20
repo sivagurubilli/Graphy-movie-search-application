@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Josefin+Sans|Limelight&display=swap");
 
 /* for making grid display */
-.movie-grid {
+.movie_grid {
   display: grid;
   grid-gap: 1rem; 
 margin-top: 40px;
@@ -45,14 +45,14 @@ min-height: 200px;
   min-height: 200px;
 }
 
-.movie-details {
+.movie_details {
 
   flex: 0 0 70%;
   padding: 0 1rem;
 }
 
 
-.movie-details p {
+.movie_details p {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -61,12 +61,12 @@ min-height: 200px;
   margin-bottom: 0.5rem;
 }
 
-.movie-details strong {
+.movie_details strong {
   font-weight: bold;
   text-align: left;
 }
 
-.movie-details em {
+.movie_details em {
   font-style: italic;
   text-align: right;
 }
@@ -75,7 +75,7 @@ min-height: 200px;
 
 @media (min-width: 768px) {
   /* For medium screens and larger, display 2 columns */
-  .movie-grid {
+  .movie_grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
   .flex_column {
@@ -88,7 +88,7 @@ min-height: 200px;
 
 @media (max-width: 767px) {
   /* For small screens, display 1 column */
-  .movie-grid {
+  .movie_grid {
     grid-template-columns: repeat(1, minmax(0, 1fr));
   }
 }
