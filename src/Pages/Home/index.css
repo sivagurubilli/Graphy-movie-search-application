@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans|Limelight&display=swap");
+
+.App {
+  text-align: center;
+}
+
+.header {
+  background-color: #f76b6c;
+  background-image: url("https://cdn.mos.cms.futurecdn.net/rDJegQJaCyGaYysj2g5XWY.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 40vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color:#f76b6c ;
+}
+
+h1 {
+  font-family: "Limelight", cursive;
+}
