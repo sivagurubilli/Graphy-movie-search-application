@@ -1,5 +1,18 @@
 # Getting Started with Create React App
 
+This is a web application that allows users to search for movies and explore detailed information using the OMDB API (http://www.omdbapi.com/). The app provides a simple and intuitive interface where users can enter the title of a movie and retrieve relevant details such as title, year of release, plot summary, and poster image.
+
+Features:
+- Search for movies by entering the title
+- View movie details including title, year, plot, and poster image
+- Responsive design for optimal viewing on various devices
+
+Tech Stack:
+- React.js: JavaScript library for building user interfaces
+- OMDB API: External API for fetching movie data
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
