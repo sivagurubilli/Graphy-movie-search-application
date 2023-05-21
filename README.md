@@ -1,17 +1,37 @@
-# Getting Started with Create React App
+
 
 This is a web application that allows users to search for movies and explore detailed information using the OMDB API (http://www.omdbapi.com/). The app provides a simple and intuitive interface where users can enter the title of a movie and retrieve relevant details such as title, year of release, plot summary, and poster image.
 
-Features:
+## Features:
 - Search for movies by entering the title
 - View movie details including title, year, plot, and poster image
 - Responsive design for optimal viewing on various devices
 
-Tech Stack:
+## Tech Stack:
 - React.js: JavaScript library for building user interfaces
 - OMDB API: External API for fetching movie data
 
+## Home Page
+ ### Using the search bar on the home page and the default movie data, we can search for movies by entering their titles
 
+![Screenshot (364)](https://github.com/sivagurubilli/Graphy-movie-search-application/assets/92457968/bba76379-faff-495f-9932-3352ccc4bb61)
+
+## Movies Recomendations
+  ### It displays the recommendations of movies in component when entering movie details, we can click on a recommendation to display movie details
+![Screenshot (366)](https://github.com/sivagurubilli/Graphy-movie-search-application/assets/92457968/8df83f14-b3d3-41a6-8cb3-38b775452ec9)
+
+
+## Movies Not Found Page
+ ### In the event that no data match is found or there are too many results for the search, the error page is displayed 
+![Screenshot (365)](https://github.com/sivagurubilli/Graphy-movie-search-application/assets/92457968/57bb170a-6046-4262-86be-bb1240952205)
+
+
+## Movie Detail Page
+ ### When you click on the movie recommendation, all the details of the movie appear in a card
+![Screenshot (367)](https://github.com/sivagurubilli/Graphy-movie-search-application/assets/92457968/cd6746a6-bd54-4f5f-b144-b04ebe220de3)
+
+
+# Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
