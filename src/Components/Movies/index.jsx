@@ -6,7 +6,7 @@ import SingleMovie from "./SingleMovie";
 
 const Movies = ({ movies, movieToSearch,singleMovie }) => {
   const [movieToShow, setMovieToShow] = useState([]);
-  console.log(singleMovie)
+
   // display movies or error based on response
   const displayMovieResults = () => {
     if (movieToShow.Error) {

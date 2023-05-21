@@ -1,5 +1,5 @@
 import axios from "axios";
-const API_KEY = "a20d168d";
+const API_KEY = process.env.API_KEY;
 
 // this function is for getting  moovie data based input search term
 export const GetMovieDataService = async (userInput, page = 1) => {
