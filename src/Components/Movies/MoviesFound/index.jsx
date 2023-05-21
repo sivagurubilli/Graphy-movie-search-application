@@ -2,11 +2,10 @@ import React from "react";
 import MovieCard from "./MoviCard";
 
 const MovieFound = ({ movies }) => {
- 
   return (
-    <div className="movie_grid"> 
+    <div className="movie_grid">
       {movies?.Search?.map((el) => (
-        <MovieCard key={el} foundMovie={el} />
+        <MovieCard key={el.Title} foundMovie={el} />
       ))}
     </div>
   );

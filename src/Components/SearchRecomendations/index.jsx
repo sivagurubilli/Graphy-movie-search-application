@@ -7,10 +7,11 @@ const SearchRecomendations = ({
   setUserInput,
   setRecomendationData,
   setSearchParams,
+  setMoviebyId
 }) => {
   //set recomendations on searching in component
   const handleRecomendation = (el) => {
-    setUserInput(el.Title);
+    setMoviebyId(el.imdbID)
     setSearchParams({ movie_name: el.Title });
     setRecomendationData([]);
   };
