@@ -13,12 +13,12 @@ This is a web application that allows users to search for movies and explore det
 
 ## Important Note
 As I am using netlify hosting service, it only allows https method, but the OmDB API only accepts http method so we have to add https://movie-flex-graphy.netlify.app to our Google insecure content settings.
-- First open "settings" in google chrome
+- First, open "settings" in google chrome
 - After that click on "Privacy and Security"
 - after that click on "site settings"
-- There is a option bottom of page "Additional content settings" click on that.
+- There is an option bottom of the page "Additional content settings" Click on that.
 - after click on "insecure content" option 
-- after bootom there is a button call "add"  beside of  "Allowed to show insecure content" 
+- after the bottom, there is a button called "add" beside "Allowed to show insecure content"
 - click on add and add this site url "https://movie-flex-graphy.netlify.app/"
 - now u can get the data from omdb api
 
