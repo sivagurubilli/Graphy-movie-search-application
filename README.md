@@ -11,6 +11,17 @@ This is a web application that allows users to search for movies and explore det
 - React.js: JavaScript library for building user interfaces
 - OMDB API: External API for fetching movie data
 
+## Important Note
+As I am using netlify hosting service, it only allows https method, but the OmDB API only accepts http method so we have to add https://movie-flex-graphy.netlify.app to our Google insecure content settings.
+- First open "settings" in google chrome
+- After that click on "Privacy and Security"
+- after that click on "site settings"
+- There is a option bottom of page "Additional content settings" click on that.
+- after click on "insecure content" option 
+- after bootom there is a button call "add"  beside of  "Allowed to show insecure content" 
+- click on add and add this site url "https://movie-flex-graphy.netlify.app/"
+- now u can get the data from omdb api
+
 ## Home Page
  ### Using the search bar on the home page and the default movie data, we can search for movies by entering their titles
 
