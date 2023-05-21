@@ -1,5 +1,5 @@
 
-
+## The Graphy Assignment (Movie Searching Application)
 This is a web application that allows users to search for movies and explore detailed information using the OMDB API (http://www.omdbapi.com/). The app provides a simple and intuitive interface where users can enter the title of a movie and retrieve relevant details such as title, year of release, plot summary, and poster image.
 
 ## Features:
